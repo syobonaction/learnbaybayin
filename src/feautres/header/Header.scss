@@ -1,0 +1,26 @@
+.header_container {
+  height: 12vh;
+
+  .header_logo {
+    height: 100%;
+  }
+
+  .header_nav {
+    list-style: none;
+    float: right;
+
+    li {
+      display: inline-block;
+      padding: 2vh;
+
+      a {
+        text-decoration: none;
+        color: #03658c;
+
+        &:active, &:visited {
+          color: #03658c;
+        }
+      }
+    }
+  }
+}

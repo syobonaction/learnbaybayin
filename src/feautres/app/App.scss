@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Matatas-One";
+  src: url("../../assets/fonts/matatas_one.otf");
+}
+
+@font-face {
+  font-family: "Tagalog-93";
+  src: url("../../assets/fonts/TagDoc93.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../assets/fonts/gilroy.woff");
+}
+
+.app_container {
+  background-color: #f2f1e7;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  font-family: "Gilroy", sans-serif;
+  color: #03658c;
+}
